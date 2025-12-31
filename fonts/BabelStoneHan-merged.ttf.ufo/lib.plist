@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>public.glyphOrder</key>
+    <array>
+      <string>.notdef</string>
+      <string>space</string>
+      <string>exclam</string>
+      <string>numbersign</string>
+      <string>ampersand</string>
+      <string>parenleft</string>
+      <string>parenright</string>
+      <string>asterisk</string>
+      <string>plus</string>
+      <string>comma</string>
+      <string>hyphen</string>
+      <string>period</string>
+      <string>slash</string>
+      <string>zero</string>
+      <string>one</string>
+      <string>two</string>
+      <string>three</string>
+      <string>four</string>
+      <string>five</string>
+      <string>six</string>
+      <string>seven</string>
+      <string>eight</string>
+      <string>nine</string>
+      <string>colon</string>
+      <string>semicolon</string>
+      <string>equal</string>
+      <string>at</string>
+      <string>A</string>
+      <string>B</string>
+      <string>C</string>
+      <string>D</string>
+      <string>E</string>
+      <string>F</string>
+      <string>G</string>
+      <string>H</string>
+      <string>I</string>
+      <string>J</string>
+      <string>K</string>
+      <string>L</string>
+      <string>M</string>
+      <string>N</string>
+      <string>O</string>
+      <string>P</string>
+      <string>Q</string>
+      <string>R</string>
+      <string>S</string>
+      <string>T</string>
+      <string>U</string>
+      <string>W</string>
+      <string>X</string>
+      <string>bracketleft</string>
+      <string>backslash</string>
+      <string>bracketright</string>
+      <string>a</string>
+      <string>b</string>
+      <string>c</string>
+      <string>d</string>
+      <string>e</string>
+      <string>f</string>
+      <string>g</string>
+      <string>h</string>
+      <string>i</string>
+      <string>j</string>
+      <string>k</string>
+      <string>l</string>
+      <string>m</string>
+      <string>n</string>
+      <string>o</string>
+      <string>p</string>
+      <string>q</string>
+      <string>r</string>
+      <string>s</string>
+      <string>t</string>
+      <string>u</string>
+      <string>v</string>
+      <string>w</string>
+      <string>x</string>
+      <string>y</string>
+      <string>z</string>
+      <string>braceleft</string>
+      <string>bar</string>
+      <string>braceright</string>
+      <string>asciitilde</string>
+      <string>agrave</string>
+      <string>aacute</string>
+      <string>ugrave</string>
+      <string>ellipsis</string>
+      <string>uni2FF0</string>
+      <string>uni2FF1</string>
+      <string>uni3001</string>
+      <string>uni3002</string>
+      <string>uni300A</string>
+      <string>uni300B</string>
+      <string>uni3B66</string>
+      <string>uni4E0A</string>
+      <string>uni4E19</string>
+      <string>uni4E1B</string>
+      <string>uni4E2D</string>
+      <string>uni4E8B</string>
+      <string>uni4EAC</string>
+      <string>uni4EAE</string>
+      <string>uni4EE3</string>
+      <string>uni4EE5</string>
+      <string>uni4FCA</string>
+      <string>uni4FDD</string>
+      <string>uni5167</string>
+      <string>uni516C</string>
+      <string>uni5178</string>
+      <string>uni52D9</string>
+      <string>uni5317</string>
+      <string>uni5357</string>
+      <string>uni5370</string>
+      <string>uni53F2</string>
+      <string>uni540C</string>
+      <string>uni5546</string>
+      <string>uni5553</string>
+      <string>uni55BF</string>
+      <string>uni55E3</string>
+      <string>uni5609</string>
+      <string>uni570B</string>
+      <string>uni5730</string>
+      <string>uni5831</string>
+      <string>uni5927</string>
+      <string>uni592E</string>
+      <string>uni5949</string>
+      <string>uni5B50</string>
+      <string>uni5B89</string>
+      <string>uni5BE7</string>
+      <string>uni5C07</string>
+      <string>uni5C40</string>
+      <string>uni5C71</string>
+      <string>uni5CB3</string>
+      <string>uni5DE1</string>
+      <string>uni5E16</string>
+      <string>uni5E38</string>
+      <string>uni5E73</string>
+      <string>uni5E9C</string>
+      <string>uni5EAB</string>
+      <string>uni5FB7</string>
+      <string>uni606D</string>
+      <string>uni6148</string>
+      <string>uni61C9</string>
+      <string>uni6240</string>
+      <string>uni627F</string>
+      <string>uni62DB</string>
+      <string>uni6309</string>
+      <string>uni63ED</string>
+      <string>uni64AB</string>
+      <string>uni6536</string>
+      <string>uni6599</string>
+      <string>uni65B9</string>
+      <string>uni65BC</string>
+      <string>uni660E</string>
+      <string>uni66F8</string>
+      <string>uni6710</string>
+      <string>uni6717</string>
+      <string>uni6728</string>
+      <string>uni672B</string>
+      <string>uni672C</string>
+      <string>uni6731</string>
+      <string>uni6771</string>
+      <string>uni6848</string>
+      <string>uni6A94</string>
+      <string>uni6B23</string>
+      <string>uni6B77</string>
+      <string>uni6C38</string>
+      <string>uni6CB3</string>
+      <string>uni6CBA</string>
+      <string>uni6CE9</string>
+      <string>uni6CF0</string>
+      <string>uni6D77</string>
+      <string>uni6E05</string>
+      <string>uni6E78</string>
+      <string>uni70A4</string>
+      <string>uni70BA</string>
+      <string>uni738B</string>
+      <string>uni7531</string>
+      <string>uni7532</string>
+      <string>uni767B</string>
+      <string>uni7814</string>
+      <string>uni7940</string>
+      <string>uni7965</string>
+      <string>uni7A76</string>
+      <string>uni7ACB</string>
+      <string>uni7DE8</string>
+      <string>uni8059</string>
+      <string>uni81E8</string>
+      <string>uni8207</string>
+      <string>uni8279</string>
+      <string>uni83EF</string>
+      <string>uni85CF</string>
+      <string>uni865F</string>
+      <string>uni8865</string>
+      <string>uni88DC</string>
+      <string>uni8A00</string>
+      <string>uni8A9E</string>
+      <string>uni8B49</string>
+      <string>uni8BBA</string>
+      <string>uni8BC1</string>
+      <string>uni8ECD</string>
+      <string>uni8F14</string>
+      <string>uni9304</string>
+      <string>uni9322</string>
+      <string>uni93AE</string>
+      <string>uni9445</string>
+      <string>uni95A3</string>
+      <string>uni964D</string>
+      <string>uni9662</string>
+      <string>uni9928</string>
+      <string>uni9C32</string>
+      <string>uni9EC4</string>
+      <string>uniFE10</string>
+      <string>uniFE11</string>
+      <string>uniFE12</string>
+      <string>uniFE13</string>
+      <string>uniFE19</string>
+      <string>uni300A.vert</string>
+      <string>uni300B.vert</string>
+      <string>uniFF0C</string>
+      <string>uniFF1A</string>
+      <string>.notdef.1</string>
+      <string>u2C0C9</string>
+      <string>u2C350</string>
+      <string>u2DE4A</string>
+      <string>u3062B</string>
+      <string>u30630</string>
+      <string>u30631</string>
+      <string>u30C3B</string>
+      <string>u30C58</string>
+      <string>u30C59</string>
+      <string>u30C68</string>
+      <string>.notdef.2</string>
+      <string>.notdef.3</string>
+      <string>u2AE14</string>
+      <string>.notdef.4</string>
+      <string>uniE91C</string>
+      <string>uniE91D</string>
+      <string>uniE940</string>
+      <string>uniE942</string>
+    </array>
+    <key>public.openTypeHeadModified</key>
+    <string>2025/12/31 20:24:05</string>
+    <key>public.openTypePostUnderlinePosition</key>
+    <integer>-148</integer>
+    <key>public.truetype.instructions</key>
+    <dict>
+      <key>controlValue</key>
+      <dict>
+        <key>0</key>
+        <integer>1</integer>
+        <key>1</key>
+        <integer>0</integer>
+        <key>2</key>
+        <integer>1</integer>
+        <key>3</key>
+        <integer>0</integer>
+      </dict>
+      <key>controlValueProgram</key>
+      <string>
+NPUSHB[ ]	/* 1 value pushed */
+1
+SCANTYPE[ ]	/* ScanType */
+PUSHW[ ]	/* 1 value pushed */
+511
+SCANCTRL[ ]	/* ScanConversionControl */
+</string>
+      <key>fontProgram</key>
+      <string>
+PUSHB[ ]	/* 1 value pushed */
+0
+FDEF[ ]	/* FunctionDefinition */
+  PUSHB[ ]	/* 1 value pushed */
+  64
+  SMD[ ]	/* SetMinimumDistance */
+  RTG[ ]	/* RoundToGrid */
+  DUP[ ]	/* DuplicateTopStack */
+  IF[ ]	/* If */
+    SVTCA[1]	/* SetFPVectorToAxis */
+    PUSHB[ ]	/* 1 value pushed */
+    1
+    LOOPCALL[ ]	/* LoopAndCallFunction */
+    IUP[1]	/* InterpolateUntPts */
+  ELSE[ ]	/* Else */
+    POP[ ]	/* PopTopStack */
+  EIF[ ]	/* EndIf */
+  DUP[ ]	/* DuplicateTopStack */
+  IF[ ]	/* If */
+    SVTCA[0]	/* SetFPVectorToAxis */
+    PUSHB[ ]	/* 1 value pushed */
+    2
+    LOOPCALL[ ]	/* LoopAndCallFunction */
+    IUP[0]	/* InterpolateUntPts */
+  ELSE[ ]	/* Else */
+    POP[ ]	/* PopTopStack */
+  EIF[ ]	/* EndIf */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+1
+FDEF[ ]	/* FunctionDefinition */
+  MDAP[1]	/* MoveDirectAbsPt */
+  SLOOP[ ]	/* SetLoopVariable */
+  ALIGNRP[ ]	/* AlignRelativePt */
+  MDRP[11101]	/* MoveDirectRelPt */
+  SLOOP[ ]	/* SetLoopVariable */
+  ALIGNRP[ ]	/* AlignRelativePt */
+ENDF[ ]	/* EndFunctionDefinition */
+PUSHB[ ]	/* 1 value pushed */
+2
+FDEF[ ]	/* FunctionDefinition */
+  MDAP[1]	/* MoveDirectAbsPt */
+  SLOOP[ ]	/* SetLoopVariable */
+  ALIGNRP[ ]	/* AlignRelativePt */
+  MDRP[11101]	/* MoveDirectRelPt */
+  SLOOP[ ]	/* SetLoopVariable */
+  ALIGNRP[ ]	/* AlignRelativePt */
+ENDF[ ]	/* EndFunctionDefinition */
+</string>
+      <key>formatVersion</key>
+      <string>1</string>
+      <key>maxFunctionDefs</key>
+      <integer>10</integer>
+      <key>maxInstructionDefs</key>
+      <integer>0</integer>
+      <key>maxStackElements</key>
+      <integer>2048</integer>
+      <key>maxStorage</key>
+      <integer>0</integer>
+      <key>maxTwilightPoints</key>
+      <integer>2</integer>
+      <key>maxZones</key>
+      <integer>1</integer>
+    </dict>
+  </dict>
+</plist>

@@ -1,0 +1,214 @@
+% !TeX program = lualatex
+
+\documentclass[12pt,draft]{article}
+\usepackage[tmargin=1in,bmargin=0.5in,hmargin=0.5in]{geometry}
+\usepackage[backend=biber,style=gb7714-2025,gbpub=false]{biblatex}
+\usepackage[fontset=none,scheme=plain]{ctex}
+\usepackage{fancyhdr}
+\usepackage{tabularx, multirow}
+\usepackage{graphicx, caption, subcaption}
+\usepackage{xcolor}
+\usepackage{lua-ul}
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{ISO/IEC JTC1/SC2/WG2/IRG N2918}
+\lhead{Universal Multiple-Octet Coded Character Set}
+
+% \setmainfont[Path=fonts/, BoldFont=*-Bold, UprightFont=*-regular, ItalicFont=*-It]{MinionPro}
+\setCJKmainfont[Path=fonts/]{BabelStoneHan-merged}
+
+\usepackage[pdfusetitle,unicode]{hyperref}
+\renewcommand{\bibfont}{\footnotesize}
+\addbibresource{main.bib}
+
+\begin{document}
+
+\title{Proposal to update the reference glyphs for 2 UK-source ideographs}
+\author{Huáng Jùnliàng (黄俊亮)}
+
+\makeatletter
+{
+  \renewcommand{\tabcolsep}{8pt}
+  \begin{tabularx}{\textwidth}{l l}
+    Doc Type: & Working Group Document \\
+
+    Title: & \@title\footnotemark \\
+
+    Source: & \@author \\
+
+    Status: & Individual contribution \\
+
+    Action required: & To be considered by the IRG and UK \\
+
+    Date: & \today \\
+  \end{tabularx}
+}
+\makeatother
+\footnotetext{Sources of this document are available online: \url{https://github.com/JLHwung/IRGN2918}.}
+
+\vspace{\baselineskip}
+
+\section{Summary}
+
+This proposal requests the update of the reference glyphs for two UK-source ideographs, as listed in Table~\ref{tab:proposed-glyphs}.
+
+\begin{table}[htbp]
+  \centering
+  \renewcommand{\arraystretch}{1.5}
+  \renewcommand{\tabcolsep}{8pt}
+  \renewcommand\tabularxcolumn[1]{m{#1}}
+  \begin{tabularx}{\textwidth}{c|c|c|c|c|c@{}}
+    \hline
+    \multicolumn{2}{c|}{\textbf{UCS}} & \multicolumn{4}{c}{\textbf{Suggested}} \\
+    \hline
+    \textbf{Code Point} & \textbf{Glyph} & \textbf{Glyph} & \textbf{IDS} & \textbf{RS} & \textbf{TS} \\
+    \hline
+    U+3062B & {
+      \begin{minipage}[c][135pt]{135pt}\centering\fontsize{96pt}{96pt}\selectfont 𰘫
+    \end{minipage}} & {
+      \begin{minipage}[c][135pt]{135pt}\centering\fontsize{96pt}{96pt}\selectfont ⿰木聙
+    \end{minipage}} & ⿰\/木聙 & 75.14 & 18 \\
+    \hline
+    U+30C68 & {
+      \begin{minipage}[c][135pt]{135pt}\centering\fontsize{96pt}{96pt}\selectfont 𰱨
+    \end{minipage}} & {
+      \begin{minipage}[c][135pt]{135pt}\centering\fontsize{96pt}{96pt}\selectfont ⿱艹𪸔
+    \end{minipage}} & ⿱\/艹𪸔 & 140.8 & 12 \\
+    \hline
+  \end{tabularx}
+  \caption{Proposed reference glyphs and metadata changes}\label{tab:proposed-glyphs}
+\end{table}
+
+\pagebreak
+
+\section{Rationale}
+The current reference glyphs of U+3062B 𰘫 and U+30C68 𰱨 comes from 《南明史》 (Figure~\ref{fig:nanmingshi}).
+
+\begin{quote}
+  \underLine{泰安王由𰘰}……與\underLine{臨朐王常湸}子\underLine{由𬃉}、\underLine{寧海王常沺}子\underLine{由㭦}、\underLine{嘉祥王常泩}子\underLine{慈𰱙}、\underLine{清平王由喿}子\underLine{慈𰱨}、泰安奉國將軍\underLine{由𭹊}、臨朐輔國將軍\underLine{常𰰻}、奉國將軍\underLine{由𰘫}、清平鎮國將軍\underLine{慈𰱘}，同降於\underLine{清}。
+\end{quote}
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.7\textwidth]{images/nanmingshi-1489.png}
+  \caption{Evidence of U+3062B 𰘫 and U+30C68 𰱨 in 《南明史》\cite[1489]{南明史}}\label{fig:nanmingshi}
+\end{figure}
+
+The author of 《南明史》, 錢海岳, does not provide the specific sources for this text. By comparing the person names (see Table~\ref{tab:comparison}) and the lifespan of the author (1901--1968), it is likely that the text is derived from an archival document dated to 1644, the very start of the Qing dynasty: 《招撫山東河南為恭報收撫地方事》(abbrev. 《王鰲永揭帖》)\cite{王鰲永揭帖}, deeply hidden in the Forbidden Palace, and never published until 1936.
+
+% \begin{quote}
+%   隨接権\underLine{德}府事\underLine{泰安王朱由𰘱}率領\underLine{嘉祥王}長子\underLine{朱慈⿱艹炤}、\underLine{清平王}長子\underLine{朱慈⿱艹𪸔}，\underLine{𡨴海王}長子\underLine{朱由㭦}、\underLine{臨朐王}長子\underLine{朱由𬃉}，清平鎮國將軍長子\underLine{朱慈𰱘}，臨朐輔國將軍次子\underLine{朱常𰰻}、臨朐奉國將軍長子\underLine{朱由⿰木聙}，泰安奉國將軍長子\underLine{朱由𭹊}各具𡚖降表文。
+% \end{quote}
+
+In this document, we can find clear evidence of the suggested glyphs ⿱艹𪸔 and ⿰木聙, as shown in Figures~\ref{fig:jt-p2} and \ref{fig:jt-p3}.
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}[b]{0.84\textwidth}
+    \includegraphics[width=\textwidth]{images/jt-p2.png}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.15\textwidth}
+    \includegraphics[width=\textwidth]{images/jt-p2-crop.png}
+  \end{subfigure}
+  \caption{Evidence of ⿱艹𪸔 in 《王鰲永揭帖》\cite[2]{王鰲永揭帖}}\label{fig:jt-p2}
+\end{figure}
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}[b]{0.84\textwidth}
+    \includegraphics[width=\textwidth]{images/jt-p3.png}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.15\textwidth}
+    \includegraphics[width=\textwidth]{images/jt-p3-crop.png}
+  \end{subfigure}
+  \caption{Evidence of ⿰木聙 in 《王鰲永揭帖》\cite[3]{王鰲永揭帖}}\label{fig:jt-p3}
+\end{figure}
+
+\pagebreak
+
+The person name \underLine{慈⿱艹𪸔} also appears in another archival document 《山東巡按為公保應嗣以承祀典事》(abbrev. 《朱朗鑅啓本》)\cite{朱朗鑅啓本}, as shown in Figure~\ref{fig:qb-p2}.
+
+\begin{figure}[h!]
+  \centering
+  \begin{subfigure}[b]{0.84\textwidth}
+    \includegraphics[width=\textwidth]{images/qb-p2.png}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.15\textwidth}
+    \includegraphics[width=\textwidth]{images/qb-p2-crop.png}
+  \end{subfigure}
+  \caption{Evidence of ⿱艹𪸔 in 《朱朗鑅啓本》\cite[2]{朱朗鑅啓本}}\label{fig:qb-p2}
+\end{figure}
+
+\vfill
+
+\pagebreak
+
+The suggested glyphs ⿱艹𪸔 and ⿰木聙 also present in the printed versions of the archival documents mentioned above, published as 《明清史料》 in 1930s (Figures~\ref{fig:mqsl-1-98} and \ref{fig:mqsl-3-408}), as well as modern academic research article (Figure~\ref{fig:qingshiluncong}).
+
+\begin{figure}
+  \centering
+  \begin{subfigure}[b]{0.84\textwidth}
+    \includegraphics[width=\textwidth]{images/mqsl-1-98.jpg}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.15\textwidth}
+    \includegraphics[width=\textwidth]{images/mqsl-1-98-⿱艹𪸔.jpg}
+  \end{subfigure}
+  \caption{Evidence of ⿱艹𪸔 in 《朱朗鑅啓本》 (printed version)\cite[98]{明清史料甲編}}\label{fig:mqsl-1-98}
+\end{figure}
+%https://commons.wikimedia.org/w/index.php?title=File:SSID-12468995_%E6%98%8E%E6%B8%85%E5%8F%B2%E6%96%99_%E7%94%B2%E7%B7%A8_1.pdf&page=249
+
+\begin{figure}
+  \centering
+  \begin{subfigure}[b]{0.84\textwidth}
+    \includegraphics[width=\textwidth]{images/mqsl-3-408.jpg}
+  \end{subfigure}
+  \begin{subfigure}[b]{0.15\textwidth}
+    \includegraphics[width=\textwidth]{images/mqsl-3-408-crop-⿱艹𪸔.jpg}
+
+    \vspace{.025\textwidth}
+
+    \includegraphics[width=\textwidth]{images/mqsl-3-408-crop-⿰木聙.jpg}
+  \end{subfigure}
+  \caption{Evidence of ⿱艹𪸔 in 《王鰲永揭帖》 (printed version)\cite[408]{明清史料丙編}}\label{fig:mqsl-3-408}
+\end{figure}
+%https://commons.wikimedia.org/w/index.php?title=File%3ASSID-12469161_%E6%98%8E%E6%B8%85%E5%8F%B2%E6%96%99_%E4%B8%99%E7%B7%A8_5.pdf&page=22
+
+\begin{figure}
+  \centering
+  \includegraphics[width=0.72\textwidth]{images/qslc-6.png}
+  \caption{Evidence of ⿰木聙 and ⿱艹𪸔 in 《明德王府末代王補證》\cite[6]{明德王府末代王补证}}\label{fig:qingshiluncong}
+\end{figure}
+
+\pagebreak
+
+Based on these evidences, it is clear that the current glyph U+3062B 𰘫 and U+30C68 𰱨 are not attested in earlier historical documents. And the suggested glyphs ⿱艹𪸔 and ⿰木聙 are more accurate representations of the original characters. Therefore, we propose to update the reference glyphs for U+3062B 𰘫 and U+30C68 𰱨 accordingly.
+
+\section*{Credits}
+Andrew West developed the BabelStone Han font family used in this document, except for the revised glyphs. Ken Lunde provided the RS and TS metadata for the revised glyphs. This document was created using \LaTeX\ and the \texttt{ctex} package.
+
+\printbibliography
+
+\section*{Appendix}
+Table~\ref{tab:comparison} compares the person names in different sources; differences are highlighted in color. Note that the characters ⿱艹炤 and ⿰木𬍐 have not yet been encoded.
+\begin{table}[htbp]
+  \centering
+  \renewcommand{\arraystretch}{1.5}
+  \renewcommand{\tabcolsep}{8pt}
+  \renewcommand\tabularxcolumn[1]{m{#1}}
+  \begin{tabularx}{\textwidth}{c|c|c|c|c|c|c|c|c|c}
+    \hline
+    《南明史》\cite{南明史} & 由\textcolor{red}{𰘰} & 由𬃉 & 由㭦 & 慈\textcolor{red}{𰱙} & 慈\textcolor{red}{𰱨} & 由\textcolor{red}{𭹊} & 常𰰻 & 由\textcolor{red}{𰘫} & 慈𰱘 \\
+    \hline
+    《王鰲永揭帖》\cite{王鰲永揭帖} & 由\textcolor{blue}{𰘱} & 由𬃉 & 由㭦 & 慈\textcolor{blue}{⿱艹炤} & 慈\textcolor{blue}{⿱艹𪸔} & 由\textcolor{red}{𭹊} & 常𰰻 & 由\textcolor{blue}{⿰木聙} & 慈𰱘 \\
+    \hline
+    《朱朗鑅啓本》\cite{朱朗鑅啓本} & & 由𬃉 & 由㭦 & 慈\textcolor{red}{𰱙} & 慈\textcolor{blue}{⿱艹𪸔} & 由\textcolor{blue}{⿰木𬍐} & & & 慈𰱘 \\
+    \hline
+  \end{tabularx}
+  \caption{Comparison of person names between different sources}\label{tab:comparison}
+\end{table}
+
+\vfill
+(End of Document)
+
+\end{document}

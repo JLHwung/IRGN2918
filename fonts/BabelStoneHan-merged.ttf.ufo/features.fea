@@ -1,0 +1,20 @@
+table GDEF {
+    GlyphClassDef [], [], [], [];
+} GDEF;
+
+
+lookup LigatureSubstitution1 {
+    lookupflag 0;
+    ;
+    sub uni2FF0 uni6728 uni8059 by uniE91D;
+    sub uni2FF0 uni6728 u2C350 by uniE942;
+    sub uni2FF1 uni8279 u2AE14 by uniE91C;
+    sub uni2FF1 uni8279 uni70A4 by uniE940;
+} LigatureSubstitution1;
+
+feature liga {
+    script DFLT;
+    language dflt;
+            lookup LigatureSubstitution1;
+
+} liga;
